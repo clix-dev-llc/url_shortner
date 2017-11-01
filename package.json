@@ -1,0 +1,59 @@
+{
+  "name": "url-shortener",
+  "description": "URL shortener using Node.js and Redis and couchbase",
+  "version": "1.0.0",
+  "author": "Ridham Tarpara <ridham.tarpara@gmail.com>",
+  "license": "MIT",
+  "engines": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dotzero/node-url-shortener"
+  },
+  "dependencies": {
+    "base58": "^0.1.0",
+    "body-parser": "^1.15.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.7.1",
+    "couchbase": "^2.3.0",
+    "crypto": "0.0.3",
+    "ejs": "^2.4.1",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "^6.10.0",
+    "express": "^4.13.4",
+    "method-override": "^2.3.6",
+    "mocha": "^2.5.3",
+    "moment": "^2.18.1",
+    "morgan": "^1.7.0",
+    "redis": "^2.6.0-2",
+    "request": "^2.81.0",
+    "url": "^0.11.0",
+    "useragent": "^2.1.12",
+    "uuid": "^3.0.1",
+    "yamlparser": "0.0.2",
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "fakeredis": "^1.0.3",
+    "mocha": "^2.4.5",
+    "superagent": "^2.0.0-alpha.3",
+    "superagent-mocker": "^0.4.0"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "redis",
+    "rest",
+    "couchbase"
+  ],
+  "scripts": {
+    "start": "node app",
+    "test": "mocha --timeout 15000"
+  }
+}
